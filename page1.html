@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  <!-- Site made with Mobirise Website Builder v5.2.0, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.2.0, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/hour-of-code-logo-96x96.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>Maze</title>
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+  
+</head>
+<body>
+  
+  <section class="menu menu1 cid-sgHxPfZOoo" once="menu" id="menu1-5">
+    
+
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="index.html">
+                        <img src="assets/images/hour-of-code-logo-96x96.png" alt="HOC" style="height: 3rem;">
+                    </a>
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-black text-primary display-7" href="index.html">Hour Of Code Machine Learning</a></span>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.html" aria-expanded="false">Home<br></a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page1.html" aria-expanded="false">Maze Activity<br></a></li></ul>
+                
+                
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section class="content4 cid-sjtwUTn6Au" id="content4-b">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-10">
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2">
+                    <strong>Voice Controlled Maze</strong></h3>
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5"></h4>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="image3 cid-sgK7tFdBhP" id="image3-a">
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10">
+                <div class="image-wrapper">
+                <center>
+                    <form>
+                      <label for="link">Link: </label>
+                      <input type="text" id="link" name="link"> 
+                      <input type="submit" value="Submit">
+                    </form> 
+                    <iframe src="https://editor.p5js.org/p5guy/embed/xEdO3cIQM" height="330" width="300" frameborder="0" overflow="hidden" scrolling="no" allow="microphone" id="maze"></iframe>
+                </center>
+                <script>
+                    const queryString=window.location.search;
+                    const urlParams=new URLSearchParams(queryString);
+                    if(urlParams.has('link')){
+                      var link=urlParams.get("link");
+                      document.getElementById("maze").src="https://editor.p5js.org/p5guy/embed/xEdO3cIQM?link="+encodeURI(link);
+                      // console.log(document.getElementById("maze").src);
+                    }
+                    </script>
+                </div>
+                <p class="mbr-description mbr-fonts-style mt-2 align-center display-4">If the ball is red, that means voice control is not connected. This means that the ball can only be controlled using the WASD keys. Try putting a link to your model in the box at the top and hitting submit. When the ball turns blue, voice control will turn on, and it is your job to use voice commands to guide the ball to the green square at the end. Finish the maze or reload the page for a completely new one. Enjoy!</p>
+            </div>
+        </div>
+    </div>
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;"><a href="https://mobirise.site/p" style="color:#aaa;"></a></p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
+  
+  
+</body>
+</html>
